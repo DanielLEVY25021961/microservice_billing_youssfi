@@ -118,7 +118,7 @@
 		</dependency>
 
 		
-		<!-- ANNUAIRE DE MICRO-SERVICES (REGISTRY) EUREKA -->
+		<!-- CLIENT ANNUAIRE DE MICRO-SERVICES (REGISTRY) EUREKA -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>

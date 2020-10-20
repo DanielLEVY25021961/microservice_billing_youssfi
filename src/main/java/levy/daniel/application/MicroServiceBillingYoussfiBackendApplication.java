@@ -42,9 +42,17 @@ import levy.daniel.application.model.services.metier.product.ClientProductServic
  */
 @EnableFeignClients
 @SpringBootApplication
-public class MicroServiceBillingYoussfiBackendApplication { // NOPMD by dan on 06/10/2020 14:38
+public class MicroServiceBillingYoussfiBackendApplication { 
 
 
+	/**
+	 * CONSTRUCTEUR D'ARITE NULLE.
+	 */
+	public MicroServiceBillingYoussfiBackendApplication() {
+		super();
+	} // FIN DU CONSTRUCTEUR D'ARITE NULLE.________________________________
+	
+	
 	
 	/**
 	 * Point d'entrée de l'application (Micro-Service).
